@@ -18,7 +18,7 @@ const NotFoundPage = () => {
   return (
     <main style={pageStyles}>
       <title>Not found</title>
-      <h1 style={headingStyles}>404 Page not found</h1>
+      <h1 style={headingStyles}>SORYYYYY!!  This project is under construction!!!</h1>
       <Link to="/">Visit the home page</Link>
     </main>
   )

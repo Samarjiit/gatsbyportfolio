@@ -178,7 +178,7 @@ can get internships, the interview processes, process and more!</li>
               </li>
               
             </ul>
-          </div>
+          </div>{/*
           <div className="previous-work">
             <h2 className="h2">Writing</h2>
             <ul className="list">
@@ -253,10 +253,12 @@ can get internships, the interview processes, process and more!</li>
                   View LinkedIn ->
                 </h4>
               </li>
-            </ul> */}
-          </div>
-        </motion.section>
+            </ul>
+          </div> */}
 
+          
+        </motion.section>
+{/*
         <motion.section className="container next-project">
           <div className="grid">
             <h2 className="h2 grid-title">Next Project</h2>
@@ -283,7 +285,7 @@ can get internships, the interview processes, process and more!</li>
               onProjectLeave={cursorLeave}
             />
           </div>
-        </motion.section>
+        </motion.section> */}
         <Footer onFooterEnter={contactEnter} onFooterLeave={cursorLeave} onLinkEnter={linkEnter} onLinkLeave={cursorLeave}/>
 
       </div>

@@ -56,7 +56,7 @@ function WorkGrid(props) {
 
   return (
     <div className="grid">
-      <div className="work-grid">
+      <div className="work-grid">{/* 
           <FeaturedCard 
             // image="https://newportfolio.s3-us-west-2.amazonaws.com/server-video-image.png"
             image="https://newportfolio.s3.us-west-2.amazonaws.com/server-video-final/featured-tile.png"
@@ -68,7 +68,7 @@ function WorkGrid(props) {
             size="featured"
             onProjectEnter={projectEnter}
             onProjectLeave={projectLeave}
-          />
+          /> 
           <Card 
             image="https://newportfolio.s3-us-west-2.amazonaws.com/discord-onboarding-image.png"
             link="/discord-growth"
@@ -78,13 +78,13 @@ function WorkGrid(props) {
             size="normal"
             onProjectEnter={projectEnter}
             onProjectLeave={projectLeave}
-          />
+  /> */}
           <Card 
             image="https://newportfolio.s3-us-west-2.amazonaws.com/design-tooling-image.png"
-            link="/design-tooling"
+            link="/sere-ecom"
             imageAlt="UI of Design Tooling Plugins in Figma"
             color="green"
-            title="Design Tooling"
+            title="Sere-ecom platform for college student"
             size="normal"
             alignment="bottom"
             onProjectEnter={projectEnter}
@@ -92,9 +92,9 @@ function WorkGrid(props) {
           />
           <Card 
             image="https://newportfolio.s3-us-west-2.amazonaws.com/destiny-medals-image.png"
-            link="/destiny-medals"
+            link="/sikho"
             imageAlt="Image of Destiny Medals Project"
-            title="Destiny Medals"
+            title="Sikho- a skill build platform"
             color="purple"
             size="normal"
             onProjectEnter={projectEnter}

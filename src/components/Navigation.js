@@ -191,7 +191,7 @@ function Navigation(props) {
                   </motion.li>
                 </motion.ul>
                 <h5 class={styles.label}>Case Studies</h5>
-                <motion.ul variants={listVariants} className={styles.list}>
+                <motion.ul variants={listVariants} className={styles.list}>{/*}
                   <motion.li
                     variants={item}
                   >
@@ -226,7 +226,22 @@ function Navigation(props) {
                     <Link to="/steelseries" className={styles.link} onMouseEnter={mouseEnter} onMouseLeave={mouseLeave} onClick={updateNav}>
                       <span>SteelSeries</span>
                     </Link>
+                  </motion.li>*/}
+                  <motion.li
+                    variants={item}
+                  >
+                    <Link to="/sere-ecom" className={styles.link} onMouseEnter={mouseEnter} onMouseLeave={mouseLeave} onClick={updateNav}>
+                      <span>Sere-ecom platform for college student</span>
+                    </Link>
                   </motion.li>
+                  <motion.li
+                    variants={item}
+                  >
+                    <Link to="/sikho" className={styles.link} onMouseEnter={mouseEnter} onMouseLeave={mouseLeave}  onClick={updateNav}>
+                      <span>Sikho- a skill build platform</span>
+                    </Link>
+                  </motion.li>
+                 
                 </motion.ul>
                 <h5 class={styles.label}>Follow</h5>
                 <motion.div className={styles.socialIcons}>
